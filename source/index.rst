@@ -10,6 +10,7 @@ Welcome to MySQL Admin Notes's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   global/notes
 
 
 Indices and tables
