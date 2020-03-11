@@ -8,4 +8,5 @@ Server Managment
    server-timeouts
    server-storage
    server-startuperr
+   server-lvm-snapshot
 

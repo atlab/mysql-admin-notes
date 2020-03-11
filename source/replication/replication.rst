@@ -9,6 +9,5 @@ Replication
    replication-delay
    replication-cksum
    replication-errors
-   replication-snapshot
    replication-rebuild
 
