@@ -20,9 +20,6 @@ Welcome to MySQL Admin documentation!
    flavor/maria.rst
    flavor/percona.rst
 
-# unlinked:
-# global/notes
-
 #Indices and tables
 #==================
 #
@@ -30,4 +27,3 @@ Welcome to MySQL Admin documentation!
 #* :ref:`modindex`
 #* :ref:`search`
 
-# todo: move replication/replication-snapshot.rst to servermgmt
