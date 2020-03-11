@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'MySQL Admin'
+project = 'MySQL Admin Notes'
 copyright = '2020, Chris Turner'
 author = 'Chris Turner'
 
@@ -129,7 +129,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'MySQLAdminNotes.tex', 'MySQL Admin Notes Documentation',
+    (master_doc, 'MySQLAdminNotes.tex', 'MySQL Admin Notes',
      'Chris Turner', 'manual'),
 ]
 
@@ -139,7 +139,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'mysqladminnotes', 'MySQL Admin Notes Documentation',
+    (master_doc, 'mysqladminnotes', 'MySQL Admin Notes',
      [author], 1)
 ]
 
@@ -150,7 +150,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'MySQLAdminNotes', 'MySQL Admin Notes Documentation',
+    (master_doc, 'MySQLAdminNotes', 'MySQL Admin Notes',
      author, 'MySQLAdminNotes', 'One line description of project.',
      'Miscellaneous'),
 ]

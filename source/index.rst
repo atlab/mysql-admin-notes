@@ -7,23 +7,21 @@ Welcome to MySQL Admin documentation!
 =====================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
-   global/notes
    usermgmt
-   servermgmt/server-fkeys
-   servermgmt/server-timeouts
-   servermgmt/server-storage
-   servermgmt/server-startuperr
-   replication/replication-setup
-   replication/replication-delay
-   replication/replication-cksum
-   replication/replication-errors
-   txn/txn-locks
+   servermgmt/server
+   replication/replication
+   backup
+   txn/txn
+   advanced/advanced
+   flavor/flavor
    flavor/maria.rst
    flavor/percona.rst
 
+# unlinked:
+# global/notes
 
 #Indices and tables
 #==================
@@ -31,3 +29,5 @@ Welcome to MySQL Admin documentation!
 #* :ref:`genindex`
 #* :ref:`modindex`
 #* :ref:`search`
+
+# todo: move replication/replication-snapshot.rst to servermgmt
