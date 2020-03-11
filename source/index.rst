@@ -12,8 +12,8 @@ Welcome to MySQL Admin documentation!
 
    usermgmt
    servermgmt/server
-   replication/replication
    backup
+   replication/replication
    txn/txn
    advanced/advanced
    flavor/flavor
