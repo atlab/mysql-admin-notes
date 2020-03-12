@@ -70,6 +70,15 @@ be installed into the server as follows::
     mysql> CREATE FUNCTION fnv_64 RETURNS INTEGER SONAME 'libfnv_udf.so';
     mysql> CREATE FUNCTION murmur_hash RETURNS INTEGER SONAME 'libmurmur_udf.so';
 
+To test the functions::
+
+    mysql> select fnv_64("hello"),fnv1a_64("hello"),murmur_hash("hello");
+    +---------------------+----------------------+----------------------+
+    | fnv_64("hello")     | fnv1a_64("hello")    | murmur_hash("hello") |
+    +---------------------+----------------------+----------------------+
+    | 5062650224559373796 | -6615550055289275125 |  5504495257757250616 |
+    +---------------------+----------------------+----------------------+
+
 More information about these functions are available from:
 
   https://www.percona.com/doc/percona-server/LATEST/management/udf_percona_toolkit.html
@@ -77,4 +86,4 @@ More information about these functions are available from:
 Also note: the murmur hash plugin in mysql has reported some issues:
 
   https://jira.percona.com/browse/PT-1420
-
+ 
