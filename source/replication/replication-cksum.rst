@@ -61,7 +61,11 @@ can be installed into the MySQL Server to facillitate checksumming.
 
 For installations of 'percona server for mysql', these plugins are available
 by default as part of the database installation, otherwise, they must
-be compiled and copied to the mysql plugin directory.
+be compiled and copied to the mysql plugin directory. Ubuntu steps::
+
+    # apt install libmysqlclient-dev # for headers
+    # cd percona-server-5.6.40-84.0/plugin/percona-udf
+    # make build && make install-lib && make install-fn
 
 Once the binary plugins are installed in the proper location, they must
 be installed into the server as follows::
