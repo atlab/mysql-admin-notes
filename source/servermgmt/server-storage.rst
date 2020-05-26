@@ -14,7 +14,7 @@ For per table usage::
     mysql> select
                table_schema,
                table_name,
-               ((data_length+index_length)/(1024*1024)) as mb
+               ((data_length+index_length)/(1024*1024)) as mb,
                ((data_free)/(1024*1024)) as usage_gc
            from
                information_schema.tables
