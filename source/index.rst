@@ -20,10 +20,9 @@ Welcome to MySQL Admin documentation!
    flavor/maria.rst
    flavor/percona.rst
 
-#Indices and tables
-#==================
-#
-#* :ref:`genindex`
-#* :ref:`modindex`
-#* :ref:`search`
-
+.. Indices and tables
+.. ==================
+.. 
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
