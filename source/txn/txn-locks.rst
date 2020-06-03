@@ -198,3 +198,26 @@ To look up a lock wait timeout, perform the following steps:
         statement history related to the blocking thread. This information
         can then be cross-checked against the calling thread query to
         determine the reason behind the lock wait timeout.
+
+Automated Lock Debugging with 'dblock'
+--------------------------------------
+
+As seen in the previous sections, using client information to cross
+check a lock problem against its cause can be a fairly involved
+process whose proper resolution is usually dependent on workload
+or data dependent information that the administrator may not be
+able to determine without input from users. 
+
+To automate the process of lock debugging and help ensure that users
+can be informed about lock issues affecting their work, the 'dblock'
+script was written. This script monitors the MySQL error log for
+lock wait timeout messages and provides notification of the related
+processes and queries invoved. 
+
+The script should run on the actual database server, and requires read
+access to the MySQL server error log and to the various information_schema
+and performance_schema tables.
+
+More information is available in the dblock sources and in local
+system configuration.
+
