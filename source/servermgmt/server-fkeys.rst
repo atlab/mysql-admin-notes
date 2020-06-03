@@ -43,5 +43,5 @@ To list the forward dependency schemas of the whole schema `schema`::
            FROM information_schema.REFERENTIAL_CONSTRAINTS 
            where constraint_schema='schema';
 
-.. see also: github/ixcat/djwip/ixcat/depstick schema dependency listing tool
+see also: https://github.com/ixcat/djwip/ixcat/depstick dependency listing tool
 
