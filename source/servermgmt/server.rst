@@ -4,9 +4,10 @@ Server Managment
 
 .. toctree::
 
-   server-fkeys
+   server-config
+   server-startuperr
    server-timeouts
    server-storage
-   server-startuperr
+   server-fkeys
    server-lvm-snapshot
 
