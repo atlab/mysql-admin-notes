@@ -49,8 +49,8 @@ To completely recreate a table exactly without a schema on hand::
 This can be used to recreate a corrupted table in empty state which can
 subsequently be reloaded with appropriate data from a backup.
 
-Individual Table restores from Partial Innobackup Backups
----------------------------------------------------------
+Individual Table restores from Incremental Innobackup Backups
+-------------------------------------------------------------
 
 This procedure is extremely low level and not well tested, and should be
 used as a last resort and only with careful validation of data recovered.
