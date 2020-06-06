@@ -7,7 +7,7 @@ Replication
    replication-setup
    replication-logs
    replication-delay
-   replication-cksum
    replication-errors
+   replication-cksum
    replication-rebuild
 
