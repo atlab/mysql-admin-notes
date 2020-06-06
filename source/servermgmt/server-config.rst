@@ -63,7 +63,6 @@ innodb_thread_concurrency           key InnoDB CPU parameter (nCPU)
 innodb_thread_sleep_delay           key InnoDB scheduling parameter
 innodb_adaptive_max_sleep_delay     key InnoDB scheduling parameter
 innodb_concurrency_tickets          key InnoDB scheduling parameter
-innodb_print_lock_wait_timeout_info useful for transaction dbugging
 innodb_log_file_size                key InnoDB transaction configuration
 innodb_log_buffer_size              key InnoDB transaction configuration
 innodb_stats_on_metadata            keep extra InnoDB table statistics (off)
@@ -71,6 +70,8 @@ innodb_file_per_table               key InnoDB storage configuration (on)
 innodb_write_io_threads             key InnoDB i/o paremeter (2/3 CPUs)
 innodb_read_io_threads              key InnoDB i/o paremeter (1/3 CPUs) 
 innodb_flush_log_at_trx_commit      key InnoDB data integrity setting (on)
+innodb_lock_wait_timeout            timeout for requesting-cliient locks
+innodb_print_lock_wait_timeout_info useful for transaction dbugging
 wait_timeout                        inactive client timeout
 interactive_timeout                 client timeout if 'interactive' client
 net_read_timeout                    timeout for client->server xmit/recv
